@@ -1,0 +1,9 @@
+megafolderMaker.sh
+
+doginasuit.jpeg
+
+../week1
+
+.
+
+filenames.sh
