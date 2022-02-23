@@ -1,7 +1,7 @@
 #!/bin/bash
 #calculator script
 #Phillip 04/02/22
-
+colours.sh
 #text colours
 Blue='\033[1;34m'
 Green='\033[1;32m'
@@ -14,10 +14,10 @@ echo ""
 echo "This is a calculator"
 
 #read user inputs 1&2
-echo -e "${Cyan} \e[4mEnter first integer: ${White}"
+echo -e "${Cyan}\e[4mEnter first integer:${White}"
 read int1
 
-echo -e "${Cyan} \e[4mEnter second interger: ${White}"
+echo -e "${Cyan}\e[4mEnter second interger:${White}"
 read int2
 
 #choice of operations
