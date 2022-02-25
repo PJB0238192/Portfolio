@@ -1,7 +1,7 @@
 #!/bin/bash
 #calculator script
 #Phillip 04/02/22
-colours.sh
+
 #text colours
 Blue='\033[1;34m'
 Green='\033[1;32m'
