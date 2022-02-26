@@ -48,3 +48,6 @@ esac
 
 #print results
 echo -e "${White}Result : $res"
+
+#REFERENCE
+#https://www.geeksforgeeks.org/simple-calculator-bash/
