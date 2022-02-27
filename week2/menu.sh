@@ -17,24 +17,25 @@ echo "3. Set a password"
 #read user input
 read choice
 
-case $choice in
+    case $choice in
 
-    1)
-    ./folderMaker.sh
-    ;;
+        1)
+            ./folderMaker.sh
+        ;;
 
-    2)
-    ./folderCopier.sh
-    ;;
+        2)
+            ./folderCopier.sh
+        ;;
+    
+        3)
+            ./setPassword.sh
+        ;;
 
-    3)
-    ./setPassword.sh
-    ;;
+        *)
+            echo "Error, please select a valid option"
+        ;;
 
-    *)
-    echo "Error, please select a valid option"
-
-esac
+    esac
 
 else
 
