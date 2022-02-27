@@ -1,6 +1,6 @@
-
 #!/usr/bin/python3 
-      
+#from week6 work
+
 import hashlib 
       
 #hidden password hash 
