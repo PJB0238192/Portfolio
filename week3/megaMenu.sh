@@ -57,38 +57,38 @@ then
         case $choice in
 
             1) 
-            ~/scripts/portfolio/week2/folderMaker.sh
+                ~/scripts/portfolio/week2/folderMaker.sh
             ;;
 
             2)
-            ~/scripts/portfolio/week2/folderCopier.sh
+                ~/scripts/portfolio/week2/folderCopier.sh
             ;;
 
             3)
-            ~/scripts/portfolio/week2/passwordCreate.sh
+                ~/scripts/portfolio/week2/passwordCreate.sh
             ;;
             4)
-            ~/scripts/portfolio/week3/calculator.sh
+                ~/scripts/portfolio/week3/calculator.sh
             ;;
 
             5)
-            ~/scripts/portfolio/week3/megafolderMaker.sh
+                ~/scripts/portfolio/week3/megafolderMaker.sh
             ;;
 
             6)
-            ~/scripts/portfolio/week3/filesnames.sh
+                ~/scripts/portfolio/week3/filesnames.sh
             ;;
 
             7)
-            ~/scripts/portfolio/week3/InternetDownloader.sh
+                ~/scripts/portfolio/week3/InternetDownloader.sh
             ;;
 
             #exit options, otherwise the script will continue to run until exited
             8 | Exit | Q | E | e | q | exit)
-            echo -e "${Yellow}"
-            echo "See you next time!"
-            echo -e "${NC}"
-            exit 1
+                echo -e "${Yellow}"
+                echo "See you next time!"
+                echo -e "${NC}"
+                exit 1
             ;;
 
             #error checking
