@@ -1,5 +1,5 @@
-
-#!/bin/bash 
+#!/bin/bash
+#from week6 work
       
 #hidden password hash 
       
