@@ -1,6 +1,6 @@
+#!/usr/bin/ruby 
+#from week6 work
 
-       #!/usr/bin/ruby 
-      
        require 'digest' 
       
        #read the password hash 
